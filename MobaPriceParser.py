@@ -58,8 +58,8 @@ class PushoverNotification(Notification):
             conn = http.client.HTTPSConnection("api.pushover.net:443")
             conn.request("POST", "/1/messages.json",
                          urllib.parse.urlencode({
-                             "token": "aqdz4fdduo11dobk37q2kgm6kgbdxa",
-                             "user": "u88wh6oxvvtar32353p6mjfckbh53t",
+                             "token": "URTOKENFORPUSHPOVER",
+                             "user": "URUSER",
                              "url": linkToProduct,
                              "message": notificationMessage}),
                              { "Content-type": "application/x-www-form-urlencoded" })
